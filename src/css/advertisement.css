@@ -1,16 +1,11 @@
-body {
-  background-color: #121212;
-  margin: 0;
-  width: 100%;
-  overflow: hidden;
-}
-
 .adv-container {
   border-top: 1px solid #ffffff33;
   border-bottom: 1px solid #ffffff33;
   background-color: #121212;
   color: #bea69e;
+  margin: 0;
   height: 72px;
+  width: 100%;
 }
 
 .adv-header {
