@@ -10,5 +10,11 @@
         <symbol id="x" viewBox="0 0 32 32">
             <path stroke-linejoin="round" stroke-linecap="round" stroke-width="2.4" d="M24 8 8 24M8 8l16 16"/>
         </symbol>
+        <symbol id="arrow" viewBox="0 0 58 32">
+            <path fill="currentColor" d="M40 2.144l17.6 13.856-17.6 13.856v-11.456h-40v-4.8h40v-11.456z"></path>
+        </symbol>
+        <symbol id="star" viewBox="0 0 34 32">
+            <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.5263" d="M16.842 2.807l4.337 8.786 9.698 1.418-7.018 6.835 1.656 9.656-8.674-4.562-8.674 4.562 1.656-9.656-7.018-6.835 9.698-1.418 4.337-8.786z"></path>
+        </symbol>
     </defs>
 </svg>
