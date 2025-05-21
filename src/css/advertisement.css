@@ -11,7 +11,7 @@
 }
 
 .adv-header {
-  font-family: 'DM-sans';
+  font-family: 'DM Sans', sans-serif;
   text-transform: uppercase;
   font-size: 28px;
   line-height: 32px;
@@ -24,6 +24,7 @@
 }
 
 .adv-span {
+  font-family: 'DM Sans', sans-serif;
   color: #fff;
 }
 
