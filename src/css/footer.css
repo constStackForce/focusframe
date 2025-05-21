@@ -1,0 +1,191 @@
+.footer {
+  width: 100%;
+  max-width: 100%;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  background: #121212 url(../images/footer-background.png);
+}
+/* Logonun olduğu bölüm */
+.footer-logo {
+  width: 127px;
+  height: 20px;
+  fill: none;
+}
+/* Telefon ve adresin olduğu bölüm */
+.contacts-list {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  margin-top: 16px;
+}
+.contacts-list li {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28571;
+  color: #fff;
+}
+.contacts-list li:hover {
+  text-decoration: underline;
+}
+/* Sosyal Medyaların ve navigasyon etiketlerinin olduğu bölüm */
+.footer-social-wrapper {
+  margin-top: 40px;
+  display: flex;
+  gap: 40px;
+}
+.footer-social-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.footer-social-list-item {
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #fff;
+}
+.footer-social-list-item:hover {
+  text-decoration: underline;
+}
+.footer-nav-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.footer-nav-list-item {
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #fff;
+}
+.footer-nav-list-item:hover {
+  color: #bea69e;
+}
+/* İnput ve butonun olduğu bölüm */
+.footer-input-wrapper {
+  margin-top: 75px;
+  display: flex;
+  gap: 8px;
+}
+.footer-email-input {
+  padding-left: 18px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 12px;
+  width: 267px;
+  height: 60px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  outline: none;
+}
+.footer-email-input:hover {
+  border: 1px solid #bea69e;
+}
+.footer-email-input::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #121212;
+  opacity: 0.7;
+}
+.footer-input-button {
+  border-radius: 12px;
+  width: 60px;
+  height: 60px;
+  background: #1d1d1d;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  color: #fff;
+  border: none;
+}
+.footer-input-button:hover {
+  background: #121212;
+  color: #bea69e;
+}
+/* copyright bölümü  */
+.footer-copyright {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-copyright-text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.33333;
+  color: #fff;
+}
+/* Tablet Styles */
+@media (min-width: 768px) {
+  /* Mobile styleda verilen marjin değerlerini sıfırlamak için */
+  .footer {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 12px;
+    padding-top: 50px;
+    padding-bottom: 25px;
+  }
+  .contacts-list {
+    margin-top: 0;
+  }
+  .footer-input-wrapper {
+    margin-top: 0;
+  }
+  .footer-social-wrapper {
+    margin-top: 0;
+  }
+  .footer-copyright {
+    margin-top: 0;
+  }
+  /* Mobile styleda verilen marjin değerlerini sıfırlamak için */
+  .logo-contact-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  .box {
+    display: flex;
+    margin-bottom: 74px;
+  }
+  .contacts-list {
+    width: 152px;
+    height: 64px;
+    margin-right: auto;
+  }
+  .footer-social-wrapper {
+    gap: 25px;
+  }
+  .footer-nav-list {
+    margin-right: 59px;
+  }
+  .footer-email-input {
+    width: 178px;
+  }
+}
+/* Destkop Style */
+@media (min-width: 1280px) {
+  .footer {
+    width: 100%;
+    max-width: 100%;
+    padding-inline: 100px;
+  }
+  .contacts-list {
+    width: 100%;
+  }
+  .footer-social-wrapper {
+    gap: 75px;
+    margin-left: auto;
+  }
+  .footer-nav-list {
+    margin-right: auto;
+  }
+  .footer-email-input {
+    width: 216px;
+  }
+  .footer-input-wrapper {
+    margin-left: auto;
+  }
+}
