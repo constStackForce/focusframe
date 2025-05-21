@@ -12,6 +12,10 @@
   margin: auto;
 }
 
+.reviews .review-card-hidden {
+  display: none;
+}
+
 .review-title {
   width: 100px;
   height: 32px;
@@ -36,6 +40,9 @@
 
 .review-card .review-person-picture {
   display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  flex-direction: column;
 }
 
 .review-person-info {
@@ -82,15 +89,176 @@
 }
 
 @media (min-width: 768px) and (max-width: 1279px) {
-  .review .container {
-    margin: auto;
-    width: 768px;
+  .reviews .container {
+    max-width: 768px;
+    margin: 0 auto;
   }
+
   .review-title {
-    width: 171px;
-    height: 54px;
     font-size: 48px;
     line-height: 54px;
-    text-align: left;
+    margin-left: 20px;
+  }
+
+  .reviews-div {
+    display: flex;
+    padding: 20px 50px;
+    max-width: 704px;
+  }
+
+  .review-card {
+    max-width: 704px;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .review-person-info-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  .review-star-rating {
+    position: static;
+    margin: 0;
+  }
+
+  .review-person-info-texts {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+}
+
+@media (min-width: 1280px) and (max-width: 1439px) {
+  .reviews {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  /* Hatalı olan "reviews .container" seçicisini düzelttim (önünde nokta yoktu) */
+  .reviews .container {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  /* Gizli kart artık görünür */
+  .reviews .review-card-hidden {
+    display: block;
+  }
+
+  /* Başlık ayarı */
+  .review-title {
+    font-size: 48px;
+    line-height: 54px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+  }
+
+  /* 2 reviews-div yan yana durması için wrapper flex yapılmalı */
+  .reviews-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  /* Her bir .reviews-div eşit alan kaplar ve kartı ortalar */
+  .reviews-div {
+    flex: 1 1 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  /* Kart stilleri */
+  .review-card {
+    width: 530px;
+    height: auto;
+    margin: 0;
+  }
+
+  /* İç detaylar */
+  .review-person-info-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  .review-star-rating {
+    position: static;
+    margin: 0;
+  }
+
+  .review-person-info-texts {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .reviews {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  /* Hatalı olan "reviews .container" seçicisini düzelttim (önünde nokta yoktu) */
+  .reviews .container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  /* Gizli kart artık görünür */
+  .reviews .review-card-hidden {
+    display: block;
+  }
+
+  /* Başlık ayarı */
+  .review-title {
+    font-size: 48px;
+    line-height: 54px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+  }
+
+  /* 2 reviews-div yan yana durması için wrapper flex yapılmalı */
+  .reviews-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  /* Her bir .reviews-div eşit alan kaplar ve kartı ortalar */
+  .reviews-div {
+    flex: 1 1 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  /* Kart stilleri */
+  .review-card {
+    max-width: 608px;
+    height: auto;
+    margin: 0;
+  }
+
+  /* İç detaylar */
+  .review-person-info-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  .review-star-rating {
+    position: static;
+    margin: 0;
+  }
+
+  .review-person-info-texts {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
   }
 }
