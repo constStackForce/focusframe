@@ -63,6 +63,9 @@ header {
   border-radius: 30px;
   padding: 40px 20px 0;
 }
+.hero .container {
+  padding: 0;
+}
 .hero-comp {
   display: flex;
   flex-direction: column;
@@ -79,7 +82,7 @@ header {
   font-weight: 500;
   font-size: 40px;
   line-height: 44px;
-  letter-spacing: -4%;
+  letter-spacing: -1.6px;
 }
 .hero h1 span {
   color: rgba(190, 166, 158, 1);
@@ -88,15 +91,15 @@ header {
   font-style: italic;
   font-size: 40px;
   line-height: 44px;
-  letter-spacing: -4%;
+  letter-spacing: -1.6px;
 }
-.hero p {
+.hero-text-desc {
+  width: 295px;
   color: rgba(255, 255, 255, 1);
-  font-family: DM Sans;
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
-  letter-spacing: -2%;
+  letter-spacing: -0.28px;
 }
 /*  */
 .hero-block {
@@ -135,7 +138,7 @@ header {
   z-index: 1;
 }
 /*  */
-.hero-block-students-link {
+.hero-block-students-link a {
   display: flex;
   flex-direction: row;
   gap: 4px;
@@ -145,6 +148,14 @@ header {
   width: 18px;
   height: 8.66px;
   color: white;
+}
+.hero-block-students-link-ref {
+  font-family: DM Sans;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.28px;
+  color: rgba(255, 255, 255, 1);
 }
 /*  */
 .hero-block-reviews {
@@ -179,7 +190,7 @@ header {
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
-  letter-spacing: -4%;
+  letter-spacing: -0.28px;
   color: rgba(255, 255, 255, 0.5);
 }
 .hero-block-reviews-textAndvalue-value {
@@ -187,6 +198,13 @@ header {
   font-weight: 500;
   font-size: 16px;
   line-height: 18px;
-  letter-spacing: -4%;
+  letter-spacing: -0.32px;
   color: rgba(255, 255, 255, 1);
+}
+/*  MEDIA INQURY */
+
+@media (min-width: 375px) {
+  header {
+    background-color: red;
+  }
 }
