@@ -22,128 +22,24 @@
       referrerpolicy="no-referrer"
     />
     <script type="module" crossorigin src="/focusframe/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/focusframe/assets/index-DHSksVHl.css">
+    <link rel="stylesheet" crossorigin href="/focusframe/assets/index-LtAAoYJj.css">
   </head>
   <body>
-    <div class="header-bg">
-  <header class="header" id="header">
-    <div class="container header-container">
-      <div class="header-components">
-        <h2 class="header-logo">Focus.Frame</h2>
-        <div class="header-camera-bg">
-          <svg class="camera">
-            <a href="#signup">
-              <use xlink:href="../images/header/header.svg#camera"></use>
-            </a>
-          </svg>
-        </div>
-        <button id="openModalBtn">
-          <svg class="hamburger">
-            <use xlink:href="../images/header/header.svg#hamburger"></use>
-          </svg>
-        </button>
-        <!-- "display-none" sınıfı verilen element display:none olur -->
-        <div class="header-hamburger-modal-overlay" id="header-modal">
-          <div class="header-hamburger-modal">
-            <button id="closeModalBtn">
-              <svg class="header-hamburger-modal-x">
-                <use xlink:href="../images/header/header.svg#x"></use>
-              </svg>
-            </button>
-            <div class="header-modal-nav">
-              <ul class="header-modal-nav-ul">
-                <li><a href="#aboutus">ABOUT US</a></li>
-                <li><a href="#ourcourses">OUR COURSES</a></li>
-                <li><a href="#ourmentors">OUR MENTORS</a></li>
-                <li><a href="#reviews">REVIEWS</a></li>
-                <li><a href="#contacts">CONTACTS</a></li>
-              </ul>
-            </div>
-
-            <img src="../images//header/camera.png" alt="" />
-          </div>
-        </div>
-        <nav class="header-nav">
-          <ul class="header-nav-ul">
-            <li><a href="#aboutus">ABOUT US</a></li>
-            <li><a href="#ourcourses">OUR COURSES</a></li>
-            <li><a href="#ourmentors">OUR MENTORS</a></li>
-            <li><a href="#reviews">REVIEWS</a></li>
-            <li><a href="#contacts">CONTACTS</a></li>
-          </ul>
-        </nav>
-      </div>
-      <a class="header-sign-up-button" href="#signup">SING Up</a>
-    </div>
-    <section class="hero">
-      <div class="container hero-container">
-        <div class="hero-comp">
-          <div class="hero-text">
-            <h1>
-              Discover the magic of
-              <span>photography</span> in our school
-            </h1>
-            <p class="hero-text-desc">
-              Our photography school offers an unforgettable journey, where you
-              can learn the basics of composition, master technical skills,
-              translate your unique ideas.
-            </p>
-          </div>
-          <div class="hero-block">
-            <div class="hero-block-students">
-              <div class="hero-block-students-img">
-                <img src="../images/header/girl1.png" alt="" />
-                <img src="../images/header/boy.png" alt="" />
-                <img src="../images/header/girl.png" alt="" />
-              </div>
-              <div class="hero-block-students-link">
-                <a href="#reviews">
-                  <p class="hero-block-students-link-ref">Our happy students</p>
-                  <svg class="hero-students-icon">
-                    <use xlink:href="../images/header/header.svg#arrow"></use>
-                  </svg>
-                </a>
-              </div>
-            </div>
-            <div class="hero-block-reviews">
-              <div class="hero-block-reviews-svg-bg">
-                <svg>
-                  <use xlink:href="../images/header/header.svg#star"></use>
-                </svg>
-              </div>
-              <div class="hero-block-reviews-textAndvalue">
-                <span class="hero-block-reviews-textAndvalue-text"
-                  >Reviews</span
-                >
-                <span class="hero-block-reviews-textAndvalue-value">+1500</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="hero-image">
-          <img src="../images//header/cameraman.png" alt="" />
-        </div>
-      </div>
-    </section>
-  </header>
-</div>
-<script>
-  const openBtn = document.getElementById('openModalBtn');
-  const closeBtn = document.getElementById('closeModalBtn');
-  const modal = document.getElementById('header-modal');
-
-  openBtn.addEventListener('click', () => {
-    modal.style.display = 'block';
-  });
-
-  closeBtn.addEventListener('click', () => {
-    modal.style.display = 'none';
-  });
-</script>
+    <header class="header">
+  <div class="container">
+    <h2>HEADER SECTION</h2>
+  </div>
+</header>
 
 
     <main>
-      <section class="advertisement" id="advertisement">
+      <section class="hero">
+  <div class="container">
+    <h2>HERO SECTION</h2>
+  </div>
+</section>
+
+      <section class="advertisement">
   <div class="adv-container">
     <h1 class="adv-header">
       Master <span class="adv-span">your photography</span> skills with us!
@@ -151,13 +47,13 @@
   </div>
 </section>
 
-      <section class="aboutus" id="aboutus">
+      <section class="aboutus">
   <div class="container">
     <h2>ABOUT US SECTION</h2>
   </div>
 </section>
 
-      <section class="ourcourses" id="ourcourses">
+      <section class="ourcourses">
   <div class="container">
     <h2>OURCOURSES SECTION</h2>
   </div>
@@ -223,7 +119,7 @@
 </section>
 <!--Our Mentors Bitti-->
 
-      <section class="signup" id="signup">
+      <section class="signup">
   <div class="container">
     <h2>SIGNUP SECTION</h2>
   </div>
@@ -306,6 +202,7 @@
 </section>
 
     </main>
+
     <footer id="footer" class="footer">
   <div class="container">
     <div class="box">
