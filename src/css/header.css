@@ -345,3 +345,11 @@ header .container {
     object-position: top;
   }
 }
+
+@media (min-width: 1280px) {
+  header .container {
+    margin: 0 auto;
+    justify-content: center;
+    width: 100%;
+  }
+}
