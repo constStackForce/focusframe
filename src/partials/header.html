@@ -10,14 +10,19 @@
             </a>
           </svg>
         </div>
-        <svg class="hamburger">
-          <use xlink:href="../images/header/header.svg#hamburger"></use>
-        </svg>
-        <div class="header-hamburger-modal-overlay">
+        <button id="openModalBtn">
+          <svg class="hamburger">
+            <use xlink:href="../images/header/header.svg#hamburger"></use>
+          </svg>
+        </button>
+        <!-- "display-none" sınıfı verilen element display:none olur -->
+        <div class="header-hamburger-modal-overlay" id="header-modal">
           <div class="header-hamburger-modal">
-            <svg class="header-hamburger-modal-x">
-              <use xlink:href="../images/header/header.svg#x"></use>
-            </svg>
+            <button id="closeModalBtn">
+              <svg class="header-hamburger-modal-x">
+                <use xlink:href="../images/header/header.svg#x"></use>
+              </svg>
+            </button>
             <div class="header-modal-nav">
               <ul class="header-modal-nav-ul">
                 <li><a href="#aboutus">ABOUT US</a></li>
@@ -27,6 +32,7 @@
                 <li><a href="#contacts">CONTACTS</a></li>
               </ul>
             </div>
+
             <img src="../images//header/camera.png" alt="" />
           </div>
         </div>
@@ -94,3 +100,16 @@
     </section>
   </header>
 </div>
+<script>
+  const openBtn = document.getElementById('openModalBtn');
+  const closeBtn = document.getElementById('closeModalBtn');
+  const modal = document.getElementById('header-modal');
+
+  openBtn.addEventListener('click', () => {
+    modal.style.display = 'block';
+  });
+
+  closeBtn.addEventListener('click', () => {
+    modal.style.display = 'none';
+  });
+</script>
