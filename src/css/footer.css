@@ -199,6 +199,7 @@
   }
   .footer-copyright {
     gap: 773px;
+    white-space: nowrap;
   }
 }
 @media (min-width: 1440px) {
