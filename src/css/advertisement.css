@@ -1,4 +1,6 @@
 .adv-container {
+  position: relative;
+  overflow: hidden;
   border-top: 1px solid #ffffff33;
   border-bottom: 1px solid #ffffff33;
   background-color: #121212;
@@ -9,7 +11,7 @@
 }
 
 .adv-header {
-  font-family: 'DM-sans';
+  font-weight: 400;
   text-transform: uppercase;
   font-size: 28px;
   line-height: 32px;

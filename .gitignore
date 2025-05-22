@@ -23,4 +23,6 @@ dist-ssr
 *.sln
 *.sw?
 
-pr-links.txt
+# pull request list
+pullrequest-list.txt
+>>>>>>> main
