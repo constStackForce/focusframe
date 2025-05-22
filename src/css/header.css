@@ -1,5 +1,7 @@
 .header-bg {
   background-image: url('../images/header/header-footer-dashed-bg.png');
+  overflow: hidden;
+  background-position: bottom;
   background-color: rgba(18, 18, 18, 1);
   width: 100vw;
   height: 957px;
@@ -244,11 +246,14 @@ header .container {
   /* HEADER SECTION*/
   /*  */
   header {
-    background-color: blue;
+    margin-bottom: 0;
   }
-  .container {
+  .hero .container {
     max-width: 704px;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 46px;
   }
   .header-components {
     height: 60px;
@@ -267,16 +272,6 @@ header .container {
     min-width: 704px;
     padding: 64px 32px 0;
   }
-  /* .hero-image {
-    align-self: center;
-    width: 393px;
-    height: 434px;
-  }
-  .hero-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: scale-down;
-  } */
 
   .hero-text h1 {
     width: 517px;
@@ -334,5 +329,19 @@ header .container {
     display: flex;
     flex-direction: column;
     align-items: start;
+  }
+  .hero-image {
+    align-self: center;
+    height: 434px;
+    width: 393px;
+    overflow: hidden;
+    position: relative;
+  }
+  .hero-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+    object-position: top;
   }
 }
