@@ -86,6 +86,8 @@
   }
   .our-courses-header h2 {
     margin-right: 58px;
+    font-size: 48px;
+    line-height: 1.125;
   }
 }
 @media (min-width: 1280px) {
