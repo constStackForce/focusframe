@@ -165,6 +165,7 @@
   .aboutus {
     width: 1440px;
     padding-left: 100px;
+    height: max-content;
   }
   .au-title {
     width: 1240px;
@@ -189,7 +190,6 @@
   .au-cont {
     display: flex;
     width: 1240px;
-    height: 240px;
     gap: 40px;
   }
   .au-text-first {
@@ -197,17 +197,16 @@
     font-size: 16px;
     line-height: 20px;
     width: 314px;
-    height: 240px;
     padding-top: 10px;
-    padding-bottom: 10px;
     margin-left: 10px;
+    margin-bottom: 0;
+    height: fit-content;
   }
   .au-text-sec {
     font-size: 16px;
     line-height: 20px;
     width: 276px;
     padding-top: 10px;
-    padding-bottom: 10px;
-    margin-bottom: 5px;
+    height: fit-content;
   }
 }
