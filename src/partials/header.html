@@ -25,11 +25,11 @@
             </button>
             <div class="header-modal-nav">
               <ul class="header-modal-nav-ul">
-                <li><a href="#aboutus">ABOUT US</a></li>
+                <li><a href="#about-us">ABOUT US</a></li>
                 <li><a href="#ourcourses">OUR COURSES</a></li>
                 <li><a href="#ourmentors">OUR MENTORS</a></li>
                 <li><a href="#reviews">REVIEWS</a></li>
-                <li><a href="#contacts">CONTACTS</a></li>
+                <li><a href="#footer">CONTACTS</a></li>
               </ul>
             </div>
 
@@ -38,7 +38,7 @@
         </div>
         <nav class="header-nav">
           <ul class="header-nav-ul">
-            <li><a href="#aboutus">ABOUT US</a></li>
+            <li><a href="#about-us">ABOUT US</a></li>
             <li><a href="#ourcourses">OUR COURSES</a></li>
             <li><a href="#ourmentors">OUR MENTORS</a></li>
             <li><a href="#reviews">REVIEWS</a></li>
@@ -100,6 +100,7 @@
     </section>
   </header>
 </div>
+
 <script>
   const openBtn = document.getElementById('openModalBtn');
   const closeBtn = document.getElementById('closeModalBtn');
@@ -116,14 +117,14 @@
   });
 
   // Modal dışına tıklanınca kapat
-  modal.addEventListener('click', (e) => {
+  modal.addEventListener('click', e => {
     if (e.target === modal) {
       modal.style.display = 'none';
     }
   });
 
   // Modal içeriğine tıklandığında kapanmasını engelle
-  modalContent.addEventListener('click', (e) => {
+  modalContent.addEventListener('click', e => {
     e.stopPropagation();
   });
 
