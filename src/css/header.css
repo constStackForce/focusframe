@@ -366,10 +366,6 @@ header .hamburger {
   .header-modal-nav-ul {
     gap: 28px;
   }
-  .header-modal-nav-ul a {
-  }
-  .header-modal-nav-ul a:hover {
-  }
   .header-hamburger-modal img {
     width: 100%;
     height: auto;
