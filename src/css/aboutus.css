@@ -13,20 +13,21 @@
   color: #fff;
   width: 375px;
   margin: 0 auto;
+  padding-left: 20px;
 }
 .au-title {
   width: 335px;
   display: block;
   color: #fff;
-  font-weight: 500;
-  font-size: 28px;
-  line-height: 32px;
   letter-spacing: -0.8px;
   margin: 0;
 }
 
 .au-title h2 {
   margin: 0;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 32px;
 }
 
 .au-cont {
@@ -63,13 +64,18 @@
 @media (min-width: 768px) and (max-width: 1279px) {
   .aboutus {
     width: 768px;
+    padding-left: 32px;
   }
   .au-title {
     width: 704px;
-    font-size: 48px;
-    line-height: 54px;
     margin: 0;
   }
+
+  .au-title h2 {
+    font-size: 48px;
+    line-height: 54px;
+  }
+
   .au-image-mobile {
     display: none;
   }
@@ -109,13 +115,17 @@
 @media (min-width: 1280px) and (max-width: 1439px) {
   .aboutus {
     width: 1280px;
+    padding-left: 100px;
   }
   .au-title {
     width: 1080px;
+  }
+
+  .au-title h2 {
     font-size: 48px;
-    font-weight: 500;
     line-height: 54px;
   }
+
   .au-image-tablet,
   .au-image-mobile {
     display: none;
@@ -154,10 +164,17 @@
 @media (min-width: 1440px) {
   .aboutus {
     width: 1440px;
+    padding-left: 100px;
   }
   .au-title {
     width: 1240px;
   }
+
+  .au-title h2 {
+    font-size: 48px;
+    line-height: 54px;
+  }
+
   .au-image-pc,
   .au-image-mobile {
     display: none;
