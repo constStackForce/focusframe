@@ -1,5 +1,5 @@
 .header-bg {
-  background-image: url('./images/header/header-footer-dashed-bg.png');
+  background-image: url('../images/header/header-footer-dashed-bg.png');
   overflow: hidden;
   background-position: bottom;
   background-color: rgba(18, 18, 18, 1);
@@ -79,7 +79,8 @@ header .hamburger {
 }
 .header-sign-up-button {
   display: none;
-  background-color: rgba(255, 255, 255, 1);
+  background-color: #fff;
+  height: 60px;
   border-radius: 12px;
 
   color: rgba(18, 18, 18, 1);
