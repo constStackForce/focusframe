@@ -190,7 +190,8 @@
   .review-person-info-details {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
+    gap: 16px;
     width: 100%;
   }
 
@@ -200,9 +201,9 @@
   }
 
   .review-person-info-texts {
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
+    flex-shrink: 0;
+    white-space: nowrap;
+    max-width: 100%;
   }
 }
 
@@ -249,8 +250,9 @@
   .review-person-info-details {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     width: 100%;
+    flex-wrap: nowrap;
   }
 
   .review-star-rating {
@@ -259,8 +261,8 @@
   }
 
   .review-person-info-texts {
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
+    flex-shrink: 0;
+    white-space: nowrap;
+    max-width: 100%;
   }
 }
