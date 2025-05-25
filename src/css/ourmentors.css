@@ -2,7 +2,7 @@
 /* Mobile */
 
 .ourmentors .container {
-  width: 335px;
+  max-width: 335px;
   margin: auto;
 }
 
@@ -71,7 +71,7 @@
 /* Tablet */
 @media (min-width: 768px) and (max-width: 1279px) {
   .ourmentors .container {
-    width: 704px;
+    max-width: 704px;
     margin: auto;
   }
 
@@ -120,7 +120,7 @@
 
 @media (min-width: 1280px) {
   .ourmentors .container {
-    width: 1080px;
+    max-width: 1080px;
     margin: auto;
   }
   .ourmentors {
@@ -162,7 +162,7 @@
 
 @media (min-width: 1440px) {
   .ourmentors .container {
-    width: 1240px;
+    max-width: 1240px;
     margin: auto;
   }
 }
