@@ -392,21 +392,21 @@ header .hamburger {
     font-weight: 500;
     font-size: 60px;
     line-height: 64px;
-    letter-spacing: -4%;
+    letter-spacing: -2.4px;
   }
   .hero-text h1 span {
     font-weight: 400;
     font-style: italic;
     font-size: 60px;
     line-height: 64px;
-    letter-spacing: -4%;
+    letter-spacing: -2.4px;
   }
   .hero-text-desc {
     width: 418px;
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
-    letter-spacing: -2%;
+    letter-spacing: -0.28px;
   }
   .hero-block {
     gap: 40px;
@@ -558,7 +558,7 @@ header .hamburger {
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
-    letter-spacing: -2%;
+    letter-spacing: -0.28px;
   }
   .hero-block {
     gap: 40px;
