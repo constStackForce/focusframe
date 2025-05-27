@@ -1,0 +1,123 @@
+.ourcourses {
+  background-color: #121212;
+  padding-top: 80px;
+}
+.our-courses-header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  margin-bottom: 50px;
+}
+.our-courses-header h2 {
+  font-size: 32px;
+  line-height: 1.125;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.our-courses-header h2 span {
+  color: #bea69e;
+  letter-spacing: -4%;
+  white-space: nowrap;
+}
+.our-courses-card {
+  background: linear-gradient(rgba(6, 7, 7, 1) 0%, rgba(29, 29, 29, 1) 100%);
+  border-radius: 12px;
+  height: 452px;
+  padding: 32px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  position: relative;
+}
+.our-courses-main {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+.our-courses-number {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 14px;
+  line-height: 1.128;
+  font-weight: 500;
+  letter-spacing: -2%;
+  position: absolute;
+  top: 32px;
+  left: 32px;
+}
+.our-courses-card h3 {
+  margin-top: 60px;
+  font-size: 28px;
+  line-height: 1.125;
+  font-weight: 500;
+  color: #ffffff;
+  margin-bottom: 180px;
+}
+.our-courses-card p {
+  font-size: 16px;
+  line-height: 1.125;
+  font-weight: 400;
+  color: #ffffff;
+  opacity: 0.5;
+}
+.our-courses-svg {
+  position: absolute;
+  top: 32px;
+  right: 32px;
+  border-radius: 100%;
+  background-color: #1d1d1d;
+  width: 32px;
+  height: 32px;
+  padding: 6px;
+}
+@media (min-width: 768px) and (max-width: 1279px) {
+  .ourcourses {
+    padding-top: 100px;
+  }
+  .our-courses-main {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .our-courses-card {
+    width: calc((100% - 20px) / 2);
+  }
+  .our-courses-header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .our-courses-header h2 {
+    margin-right: 58px;
+    font-size: 48px;
+    line-height: 1.125;
+  }
+}
+@media (min-width: 1280px) {
+  .ourcourses {
+    padding-top: 150px;
+  }
+  .our-courses-header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .our-courses-header h2 {
+    margin-right: 410px;
+    font-size: 48px;
+    line-height: 1.125;
+    font-weight: 500;
+  }
+  .our-courses-header h2 span {
+    color: #bea69e;
+    letter-spacing: -4%;
+  }
+  .our-courses-main {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .our-courses-card {
+    width: calc((100% - 40px) / 3);
+  }
+
+  .our-courses-card-header {
+    margin-bottom: 32px;
+  }
+}
