@@ -164,7 +164,6 @@
 @media (min-width: 1440px) {
   .aboutus {
     width: 1440px;
-    padding-left: 100px;
     height: max-content;
   }
   .au-title {
