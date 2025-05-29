@@ -46,7 +46,7 @@
 .au-image-pc,
 .au-image-tablet,
 .au-image-mobile {
-  border-radius: 25%;
+  border-radius: 1000px;
 }
 
 .au-text-first {
