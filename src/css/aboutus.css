@@ -41,6 +41,14 @@
 .au-image-tablet {
   display: none;
 }
+
+.au-image-pcbig,
+.au-image-pc,
+.au-image-tablet,
+.au-image-mobile {
+  border-radius: 25%;
+}
+
 .au-text-first {
   width: 335px;
   color: #fff;
