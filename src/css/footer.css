@@ -4,7 +4,7 @@
   padding-top: 40px;
   padding-bottom: 20px;
   padding-left: 20px;
-  background: #121212 url(../images/footer-background.png);
+  background: #121212 url(../images/footer--background.png);
 }
 /* Logonun olduğu bölüm */
 .footer-svg {
@@ -79,9 +79,7 @@
   font-size: 16px;
   line-height: 1.25;
   outline: none;
-}
-.footer-email-input:hover {
-  border: 1px solid #bea69e;
+  border: none;
 }
 .footer-email-input::placeholder {
   font-weight: 400;
@@ -101,6 +99,7 @@
   text-align: center;
   color: #fff;
   border: none;
+  transition: background 0.3s ease, color 0.3s ease;
 }
 .footer-input-button:hover {
   background: #121212;
