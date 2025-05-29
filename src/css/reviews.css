@@ -7,9 +7,7 @@
 }
 
 .reviews .container {
-  width: 100%;
   max-width: 375px;
-  margin: auto;
 }
 
 .reviews .review-card-hidden {
@@ -149,13 +147,11 @@
 
 @media (min-width: 1280px) and (max-width: 1439px) {
   .reviews {
-    padding: 150px;
+    padding: 150px 0;
   }
 
   .reviews .container {
     max-width: 1080px;
-    margin: 0 auto;
-    padding: 0 20px;
   }
 
   .reviews .review-card-hidden {
@@ -165,7 +161,7 @@
   .review-title {
     font-size: 48px;
     line-height: 54px;
-    margin-left: 20px;
+    margin-left: 0;
     margin-bottom: 40px;
   }
 
@@ -182,7 +178,7 @@
   }
 
   .review-card {
-    width: 530px;
+    max-width: 1080px;
     height: auto;
     margin: 0;
   }
@@ -209,7 +205,7 @@
 
 @media (min-width: 1440px) {
   .reviews {
-    padding: 150px;
+    padding: 150px 0;
   }
 
   .reviews .container {
@@ -225,8 +221,8 @@
   .review-title {
     font-size: 48px;
     line-height: 54px;
-    margin-left: 20px;
     margin-bottom: 40px;
+    margin-left: 0;
   }
 
   .reviews-wrapper {
