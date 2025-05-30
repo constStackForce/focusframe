@@ -20,6 +20,9 @@ header button {
   margin: 0;
   outline: none;
 }
+header * {
+  transition: all 0.3s ease;
+}
 
 /*  */
 /* HEADER SECTION*/
@@ -95,6 +98,10 @@ header .hamburger {
   text-transform: uppercase;
   padding: 16px 84px;
   white-space: nowrap;
+}
+.header-sign-up-button:hover {
+  background-color: rgba(29, 29, 29, 1);
+  color: rgba(190, 166, 158, 1);
 }
 /*  */
 /* MODAL */
@@ -490,10 +497,7 @@ header .hamburger {
   .header-sign-up-button {
     display: block;
   }
-  .header-sign-up-button:hover {
-    background-color: rgba(29, 29, 29, 1);
-    color: rgba(190, 166, 158, 1);
-  }
+
   .hamburger {
     display: none;
   }
