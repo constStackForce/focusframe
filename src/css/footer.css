@@ -58,6 +58,7 @@
   font-size: 14px;
   text-transform: uppercase;
   color: #fff;
+  transition: color 0.3s ease;
 }
 .footer-nav-list-item:hover {
   color: #bea69e;
@@ -99,7 +100,7 @@
   text-align: center;
   color: #fff;
   border: none;
-  transition: background 0.3s ease, color 0.3s ease;
+  transition: color 0.3s ease, background 0.3s ease;
 }
 .footer-input-button:hover {
   background: #121212;
