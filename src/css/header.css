@@ -325,6 +325,16 @@ header .hamburger {
   letter-spacing: -0.32px;
   color: rgba(255, 255, 255, 1);
 }
+.hero-image {
+  width: 100%;
+  height: auto;
+}
+
+.hero-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
 /*  */
 /*  */
 /*  MEDIA INQURY */
